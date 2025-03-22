@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #000428, #004e92); /* تدرج أسود إلى سماوي */
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8); /* خلفية شبه شفافة */
+    padding: 15px 20px;
+    border-bottom: 2px solid #00d9ff; /* خط سماوي أسفل الهيدر */
+}
+
+h1 {
+    margin: 0;
+    color: #00d9ff; /* لون العنوان سماوي */
+}
+
+#discord-link img {
+    width: 40px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#discord-link img:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    padding: 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    background: rgba(0, 0, 0, 0.7); /* خلفية داكنة شفافة */
+    border: 2px solid #00d9ff; /* إطار سماوي */
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+    border-bottom: 2px solid #00d9ff;
+}
+
+h3 {
+    color: #00d9ff;
+}
+
+.price {
+    color: #00d9ff;
+    font-weight: bold;
+    font-size: 18px;
+}
