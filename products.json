@@ -1,0 +1,20 @@
+[
+    {
+        "name": "خدمة تصميم شعار",
+        "price": "50",
+        "description": "تصميم شعار احترافي خلال 24 ساعة",
+        "image": "logo-design.jpg"
+    },
+    {
+        "name": "تصميم بوسترات",
+        "price": "75",
+        "description": "تصميم بوسترات احترافية بجودة عالية",
+        "image": "poster-design.jpg"
+    },
+    {
+        "name": "خدمة تعديل فيديو",
+        "price": "100",
+        "description": "مونتاج وتعديل فيديوهات احترافية",
+        "image": "video-editing.jpg"
+    }
+]
